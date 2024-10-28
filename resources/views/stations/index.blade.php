@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="fw-bold text-center fst-italic my-5">TRENI</h1>
+                <h1 class="fw-bold text-center fst-italic my-5">Stazioni</h1>
             </div>
 
             <div class="col-12">
