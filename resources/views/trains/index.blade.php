@@ -15,6 +15,7 @@
                     <thead>
                         <tr class="">
                             <th>#</th>
+                            <th>Data odierna</th>
                             <th>Nome azienda</th>
                             <th>Stazione di partenza</th>
                             <th>Stazione di arrivo</th>
@@ -29,6 +30,7 @@
                         @forelse ($trains as $train)
                             <tr>
                                 <td> {{ $train->id }} </td>
+                                <td> {{ $train->data_odierna }} </td>
                                 <td> {{ $train->azienda }} </td>
                                 <td> {{ $train->stazione_di_partenza }} </td>
                                 <td> {{ $train->stazione_di_arrivo }} </td>

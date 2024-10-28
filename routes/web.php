@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\TrainController;
+use App\Http\Controllers\PassengerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,4 +20,5 @@ Route::get('/', function () {
 });
 
 Route::get('/trains', [TrainController::class, 'index'])->name('trains');
+Route::get('/passengers', [PassengerController::class, 'index'])->name('passengers');
  // controller + model
