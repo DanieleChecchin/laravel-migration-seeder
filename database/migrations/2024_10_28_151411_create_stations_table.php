@@ -16,7 +16,8 @@ return new class extends Migration
             $table->string('nome');
             $table->string('posizione');
             $table->tinyInteger('numero_binari');
-            $table->time('orari');
+            $table->time('orario_apertura');
+            $table->time('orario_chiusura');
             $table->tinyInteger('numero_negozi');
             $table->timestamps();
         });
